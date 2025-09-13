@@ -43,7 +43,7 @@ pipeline {
                 //script {
                     // Build Docker image
                  //   sh "docker build -t your-spring-boot-app:latest ."
-                }
+               // }
             }
         }
 
