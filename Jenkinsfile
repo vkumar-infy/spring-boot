@@ -4,7 +4,7 @@ pipeline {
     tools {
         // Define the Gradle tool to use (configure in Jenkins Global Tool Configuration)
         // Example: 'Gradle_7_6' should match the name configured in Jenkins
-        gradle 'Gradle_7_6' 
+        gradle 'Gradle_8_14_3' 
     }
 
     stages {
