@@ -36,6 +36,7 @@ pipeline {
         // Optional: Add a deployment stage
         stage('Deploy') {
             steps {
+                echo 'Deployment skipping!'
                 // Example: Copy the JAR to a remote server or deploy to a container orchestrator
                 // sh 'scp target/*.jar user@remote-server:/path/to/deploy'
                 // Or, if using Docker:
